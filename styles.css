@@ -3300,6 +3300,16 @@ body[dir="rtl"] .checkbox:checked,
   transition-duration: 150ms;
 }
 
+@media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
